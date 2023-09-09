@@ -1,0 +1,10 @@
+nome = str(input('\nentre com nome:'))
+
+print(f'\ntodo nome:{nome}')
+print(f'\nprimeiro caractere:{nome[0]}')
+print(f'\nultimo caractere:{nome[-1]}')
+print(f'\nprimeiro ao terceiro caractere:{nome[0:3]}')
+print(f'\nquarto caractere:{nome[4]}')
+print(f'\ntodos menos o primeiro:{nome[1:]}')
+print(f'\nos dois ultimos:{nome[-2:]}')
+print('\n')
