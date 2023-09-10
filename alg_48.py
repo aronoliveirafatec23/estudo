@@ -1,9 +1,11 @@
 import math as m
 
-sm = int(input('\nEntre com o salário mínimo: '))
-quantidade = int(input('\nEntre com a quantidade de quilowatt: '))
-preco = sm / 700
-vp = preco * quantidade
-vd = vp * 0.9
-print(f'\nPreço do quilowatt: {preco}\nValor a ser pago: {vp}\nValor com desconto: {vd} ')
+sm = float(input('\nentre com o salario minimo:'))
+qtdade = float(input('\nentre com a quantidade em quilowatt:'))
+preco = sm/700
+vp = preco*qtdade
+vd = vp*0.9
+
+print(f'\npreco do quilowatt:{preco} \nvalor a ser pago:{vp} \nvalor com desconto:{vd}')
 print('\n')
+
