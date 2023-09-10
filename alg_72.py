@@ -1,4 +1,4 @@
-depósito = float(input('\nentre com depósito'))
+depósito = float(input('\nentre com depósito:'))
 taxa = float(input('\nentre com a taxa de juros:'))
 valor = depósito*taxa/100
 total = depósito + valor

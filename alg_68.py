@@ -5,5 +5,5 @@ a = b
 b = aux
 
 print(f'\na = {a} \nb = {b}')
-print(f'\n')
+print('\n')
 

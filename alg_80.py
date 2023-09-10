@@ -8,7 +8,7 @@ multas = valAluguel*0.1*(quant/3)/10
 
 print(f'\nMultas mensais: {multas}')
 
-quantFinal = (quant-quant*0.02+quant/10) #*quant*1.08
+quantFinal = ((quant-quant*0.02+quant/10)*quant*1.08)
 
 print(f'\nQuantidade de fitas no final do ano: {quantFinal}')
 print('\n')
